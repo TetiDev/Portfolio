@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #6c63ff;
+    --primary-color: #6C63FF;
     --secondary-color: #f5f2fe;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     --font-main: "Lato";
@@ -7,33 +7,31 @@
 }
 
 body {
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
-h1,
-h2,
-h3 {
+h1,h2,h3 {
     margin: 0;
 }
-
-h1 {
-    font-size: 96px;
-}
-
-h2 {
-    font-size: 48px;
-}
-
-h3 {
-    font-size: 24px;
-    opacity: 0.7;
-}
-
 a {
     text-decoration: none;
     cursor: pointer;
     color: inherit;
 }
+
+.presentation h1 {
+    font-size: 96px;
+}
+
+.presentation h2 {
+    font-size: 48px;
+}
+
+.presentation h3 {
+    font-size: 24px;
+    opacity: 0.7;
+}
+
 
 .navigation-links {
     display: flex;
@@ -109,4 +107,20 @@ div.row {
 .presentation h2,
 .presentation h3{
     font-family: var(--font-main), Serif;
+}
+
+.btn-branding-outline {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+.project-info h2{
+    font-size: 64px;
+}
+.project-info{
+    padding: 120px 60px;
 }
