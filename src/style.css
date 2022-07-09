@@ -150,7 +150,8 @@ div.row {
 }
 
 .about_page,
-.work_page{
+.work_page,
+.contact_page{
     padding: 100px 20px 40px;
 }
 .about_page__img{
@@ -167,4 +168,10 @@ div.row {
 
 .work_page h3{
     font-weight: bold;
+}
+
+.contact_page i{
+    font-size: 20px;
+    margin-right: 30px;
+    color: var(--primary-color);
 }
