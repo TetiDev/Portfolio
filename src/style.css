@@ -1,9 +1,14 @@
 :root {
     --primary-color: #6C63FF;
     --secondary-color: #f5f2fe;
+    --sub-color: #294253;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     --font-main: "Lato";
     --font-another: "Playfair Display";
+}
+
+.text-sub{
+    color: var(--sub-color);
 }
 
 body {
@@ -144,8 +149,9 @@ div.row {
     margin-top: 40px;
 }
 
-.about_page{
-    padding: 160px 20px 60px;
+.about_page,
+.work_page{
+    padding: 100px 20px 40px;
 }
 .about_page__img{
     text-align: center;
@@ -153,4 +159,12 @@ div.row {
 
 .about_page__info{
     margin: 30px;
+}
+
+.work_page{
+    text-align: center;
+}
+
+.work_page h3{
+    font-weight: bold;
 }
