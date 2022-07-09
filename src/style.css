@@ -101,9 +101,7 @@ a {
     text-decoration: underline;
 }
 
-.navbar{
-    background-color: #F3F3ED;
-}
+
 .navbar-brand img {
     margin-right: 10px;
 }
@@ -174,4 +172,38 @@ div.row {
     font-size: 20px;
     margin-right: 30px;
     color: var(--primary-color);
+}
+nav{
+    padding: 10px 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+@media (max-width: 900px) {
+    .content {
+        text-align: center;
+        padding: 0;
+    }
 }
