@@ -20,7 +20,7 @@ a {
 }
 
 .presentation h1,
-.header h1{
+.header h{
     font-size: 96px;
 }
 
@@ -34,6 +34,14 @@ a {
     font-size: 24px;
     opacity: 0.7;
 }
+.about_page__info h1{
+    font-size: 60px;
+}
+
+.about_page__info h2{
+    font-size: 18px;
+    font-weight: bold;
+}
 
 .navigation-links {
     display: flex;
@@ -41,8 +49,8 @@ a {
     margin-top: 40px;
 }
 
-.navigation-links a {
-    margin: 20px;
+.navigation-links a,
+.about_page__info a{
     border-radius: 4px;
     padding: 20px 30px;
     text-decoration: none;
@@ -50,12 +58,14 @@ a {
     box-shadow: var(--box-shadow);
 }
 
-.contact-link {
+.contact-link,
+.project-link{
     background: var(--primary-color);
     color: white;
 }
 
 .about-link {
+    margin-left: 20px;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
 }
@@ -86,8 +96,6 @@ a {
     text-decoration: underline;
 }
 
-
-
 .navbar{
     background-color: #F3F3ED;
 }
@@ -104,11 +112,14 @@ div.row {
     background-color: #F3F3ED;
 }
 
-.presentation h1{
+.presentation h1,
+.about_page h1{
     font-family: var(--font-another), Serif;
 }
 .presentation h2,
-.presentation h3{
+.presentation h3,
+.about_page h2,
+.about_page h3{
     font-family: var(--font-main), Serif;
 }
 
@@ -131,4 +142,15 @@ div.row {
 .footer {
     text-align: center;
     margin-top: 40px;
+}
+
+.about_page{
+    padding: 160px 20px 60px;
+}
+.about_page__img{
+    text-align: center;
+}
+
+.about_page__info{
+    margin: 30px;
 }
